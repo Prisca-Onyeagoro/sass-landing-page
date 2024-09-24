@@ -2,6 +2,7 @@ import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
 import Image from "next/image";
 import cylinder from "@/assets/cylinder.png";
+import noodle from "@/assets/noodle.png";
 
 export const Hero = () => {
   return (
@@ -40,6 +41,12 @@ export const Hero = () => {
               height={220}
               alt="cylinderimage"
               className="hidden md:block -top-8 -left-32 absolute"
+            />
+            <Image
+              src={noodle}
+              width={220}
+              alt="noodle"
+              className="hidden rotate-[30deg] lg:block absolute top-[524px] left-[448px]"
             />
           </div>
         </div>
